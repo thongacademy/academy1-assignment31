@@ -1,0 +1,22 @@
+gets all of the specified queue's attributes
+{
+    "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:349613135469:assign31Queue",
+        "ApproximateNumberOfMessages": "1",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1645458317",
+        "LastModifiedTimestamp": "1645458317",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2008-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::349613135469:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:349613135469:assign31Queue\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "false"
+    }
+}
+Get the log group name
+[
+    "/aws/lambda/TransactionProcessor"
+]
